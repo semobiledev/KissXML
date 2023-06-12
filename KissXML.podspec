@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
-  s.name         = 'KissXML-דק'
-  s.version      = '6.0.0'
+  s.name         = 'KissXML'
+  s.version      = '6.1.0'
   s.license      = { :type => 'MIT', :file => 'LICENSE.txt' }
   s.summary      = 'A replacement for Cocoa\'s NSXML cluster of classes. Based on libxml. Forked by SE mobile team'
   s.homepage     = 'https://github.com/semobiledev/KissXML'
