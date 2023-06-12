@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
-  s.name         = 'KissXML'
-  s.version      = '5.3.2'
+  s.name         = 'KissXML-דק'
+  s.version      = '6.0.0'
   s.license      = { :type => 'MIT', :file => 'LICENSE.txt' }
-  s.summary      = 'A replacement for Cocoa\'s NSXML cluster of classes. Based on libxml.'
-  s.homepage     = 'https://github.com/robbiehanson/KissXML'
+  s.summary      = 'A replacement for Cocoa\'s NSXML cluster of classes. Based on libxml. Forked by SE mobile team'
+  s.homepage     = 'https://github.com/semobiledev/KissXML'
   s.author       = { 'Robbie Hanson' => 'robbiehanson@deusty.com' }
-  s.source       = { :git => 'https://github.com/robbiehanson/KissXML.git', :tag => s.version }
+  s.source       = { :git => 'https://github.com/semobiledev/KissXML.git', :tag => s.version }
 
   s.requires_arc = true
 
@@ -28,8 +28,7 @@ Pod::Spec.new do |s|
     ss.dependency 'KissXML/Additions'
   end
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
   s.osx.deployment_target = '10.9'
-  s.tvos.deployment_target = '9.0'
   s.watchos.deployment_target = '2.0'
 end
